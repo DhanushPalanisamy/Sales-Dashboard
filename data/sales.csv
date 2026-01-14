@@ -1,0 +1,10 @@
+Date,Region,Product,Quantity,Price
+2023-01-01,South,Mobile,2,15000
+2023-01-05,North,Laptop,1,55000
+2023-01-10,East,Tablet,3,20000
+2023-02-02,West,Mobile,1,15000
+2023-02-10,South,Laptop,2,55000
+2023-03-01,North,Tablet,4,20000
+2023-03-15,East,Mobile,3,15000
+2023-04-05,West,Laptop,1,55000
+2023-04-20,South,Tablet,2,20000
