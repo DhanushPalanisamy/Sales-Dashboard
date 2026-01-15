@@ -22,7 +22,7 @@ sales_trend = px.line(
 )
 
 region_sales = px.pie(
-    df,
+    df.groupby("Region")["Revenue"].sum().reset_index(),
     names="Region",
     values="Revenue",
     title="Revenue by Region"
@@ -49,7 +49,7 @@ app.layout = html.Div([
 
         html.Div([
             html.H3("Total Quantity Sold"),
-            html.H4(total_quantity)
+            html.H4(f"{total_quantity:,}")
         ], style={"width": "48%", "display": "inline-block"})
     ]),
 
