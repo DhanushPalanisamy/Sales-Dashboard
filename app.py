@@ -2,6 +2,7 @@ import pandas as pd
 import dash
 from dash import dcc, html
 import plotly.express as px
+import os
 
 # Load data
 df = pd.read_csv("data/sales.csv")
@@ -58,5 +59,5 @@ app.layout = html.Div([
 ])
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(host='0.0.0.0', port=int(os.environ.get('PORT', 8050)), debug=False)
 
