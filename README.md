@@ -22,4 +22,5 @@ It helps analyze sales performance through KPIs and visual insights such as tren
 
 ---
 
-## 📁 Project Structure
+## Project Output
+https://sales-dashboard-xb6k.onrender.com/
